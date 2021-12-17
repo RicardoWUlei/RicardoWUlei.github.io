@@ -61,7 +61,9 @@ File: Layout CSS
 .sectiontitle *{margin:0;}
 
 /* Services - can be more than four */
-#services{}
+#services{
+	padding: 1em 0 3em 0;
+}
 #services li{margin-bottom:50px;}
 #services li:nth-last-child(-n+4){margin-bottom:0;}/* Removes bottom margin from the last line of items - margin is restored in the media queries when items stack */
 #services li:nth-child(4n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
@@ -70,6 +72,12 @@ File: Layout CSS
 #services article i{margin-bottom:30px;}
 #services article .heading{}
 #services article p{margin-bottom:30px;}
+#services>.heading {
+    border-bottom: solid 3px #0f4c81;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0 0.5em 0;
+}
 
 /* Team */
 .team{}
