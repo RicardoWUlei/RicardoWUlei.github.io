@@ -57,8 +57,13 @@ File: Layout CSS
 /* Content */
 .container .content{}
 
-.sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
+.sectiontitle{display:block; max-width:55%; margin:0 auto 60px; text-align:center;}
 .sectiontitle *{margin:0;}
+.sectiontitle>.heading {
+    border-bottom: solid 3px #0f4c81;
+    display: inline-block;
+    padding: 0 0 0.5em 0;
+}
 
 /* Services - can be more than four */
 #services{
@@ -72,12 +77,6 @@ File: Layout CSS
 #services article i{margin-bottom:30px;}
 #services article .heading{}
 #services article p{margin-bottom:30px;}
-#services>.heading {
-    border-bottom: solid 3px #0f4c81;
-    display: inline-block;
-    margin: 0 0 2em 0;
-    padding: 0 0 0.5em 0;
-}
 
 /* Team */
 .team{}
@@ -310,7 +309,7 @@ td{border-width:0 1px;}
 /* ------------------------------------------------------------------------------------------------------------ */
 
 
-/* Colours
+/* Colors
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#A8A8A8; background-color:#202020/* Fallback incase a background image doesn't load */;}
 a{color:#828BF4;}
