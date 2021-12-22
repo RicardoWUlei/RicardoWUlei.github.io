@@ -110,6 +110,18 @@ File: Layout CSS
 #testimonials article blockquote{margin-bottom:20px; padding:20px; border-radius:25px 0;}
 #testimonials article blockquote::before{top:15px; left:15px; font-size:30px; line-height:30px;}
 
+/* Honors */
+#honors {}
+#honors div ul {
+	font-size: large;
+}
+.award_type {
+	font-style: italic;
+}
+.award_time {
+	float: right;
+}
+
 /* Latest */
 #latest{}
 #latest > li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
@@ -296,10 +308,14 @@ td{border-width:0 1px;}
 
 .faicon-dribble:hover{background-color:#EA4C89;}
 .faicon-facebook:hover{background-color:#3B5998;}
-.faicon-google-plus:hover{background-color:#DB4A39;}
-.faicon-linkedin:hover{background-color:#0E76A8;}
+
+.faicon-instagram:hover{background: #f09433;}
+.faicon-linkedin:hover{background-color:#2859BA;}
+.faicon-github:hover{background-color:#171515;}
+
 .faicon-twitter:hover{background-color:#00ACEE;}
 .faicon-vk:hover{background-color:#4E658E;}
+
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
