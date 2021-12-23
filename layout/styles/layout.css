@@ -60,7 +60,7 @@ File: Layout CSS
 .sectiontitle{display:block; max-width:55%; margin:0 auto 60px; text-align:center;}
 .sectiontitle *{margin:0;}
 .sectiontitle>.heading {
-    border-bottom: solid 3px #0f4c81;
+    border-bottom: solid 3px;
     display: inline-block;
     padding: 0 0 0.5em 0;
 }
